@@ -3,6 +3,7 @@
   "version": "4.0.2",
   "description": "SQLite3 bindings for React Native (Android & iOS)",
   "main": "sqlite.js",
+  "types": "./sqlite.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified yet\" && exit 1"
   },
