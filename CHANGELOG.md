@@ -1,6 +1,9 @@
 # Version History
+v4.0.2
+ 1. Rename podspec
+ 
 v4.0.1
- 1. Update podspec
+  1. Update podspec
  
 v4.0.0
  1. Add new SQLite aar.
