@@ -1,4 +1,10 @@
 # Version History
+v4.0.1
+ 1. Update podspec
+ 
+v4.0.0
+ 1. Add new SQLite aar.
+
 v3.3.9
  1. Gradle upgrade to 3.1.4 and addition of google repo (https://github.com/andpor/react-native-sqlite-storage/issues/294)
  
