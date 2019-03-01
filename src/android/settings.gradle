@@ -1,2 +1,3 @@
 rootProject.name = 'SQLitePlugin'
-include ':app'
+
+include ':app', ':sqlite-android-3270200'

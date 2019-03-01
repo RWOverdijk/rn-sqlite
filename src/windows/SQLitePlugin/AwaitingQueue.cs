@@ -1,18 +1,18 @@
 /*
 * AwaitingQueue.cs
-* 
-* This class is copied directly into the react-native-sqlite-storage repo
+*
+* This class is copied directly into the rn-sqlite repo
 * for now. When this gets checked into react-native-windows, we can remove
 * this file and start depending on that RNW's copy.
-* 
+*
 * Serializes the work of all Tasks that are added to its queue. Awaits the
 * Task returned by the current work item before moving on to the next work
 * item.
-* 
+*
 * This class is not thread-safe. All methods should be called from the same thread
 * or LimitedConcurrencyActionQueue. `await` must cause the continuation to run on
 * the same thread or LimitedConcurrencyActionQueue.
-* 
+*
 * Motivation:
 *   When you `await` a Task, you have to consider all of the things that could have
 *   changed by the time your continuation runs. For example:

@@ -7,11 +7,12 @@
 
 package org.pgsqlite;
 
+import org.sqlite.database.sqlite.SQLiteException;
+import org.sqlite.database.sqlite.SQLiteStatement;
+import org.sqlite.database.sqlite.SQLiteDatabase;
+
 import android.annotation.SuppressLint;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteException;
-import android.database.sqlite.SQLiteStatement;
 import android.content.Context;
 import android.util.Base64;
 
@@ -557,7 +558,7 @@ public class SQLitePlugin extends ReactContextBaseJavaModule {
     @SuppressLint("NewApi")
     private boolean deleteDatabaseNow(String dbname) {
         File dbfile = this.getContext().getDatabasePath(dbname);
-        return android.database.sqlite.SQLiteDatabase.deleteDatabase(dbfile);
+        return org.sqlite.database.sqlite.SQLiteDatabase.deleteDatabase(dbfile);
     }
 
     /**
@@ -637,7 +638,6 @@ public class SQLitePlugin extends ReactContextBaseJavaModule {
 
                 // INSERT:
                 else if (queryType == QueryType.insert && queryParams != null) {
-                    FLog.d("executeSqlBatch","INSERT");
                     needRawQuery = false;
 
                     SQLiteStatement myStatement = mydb.compileStatement(query);

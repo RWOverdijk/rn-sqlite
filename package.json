@@ -1,6 +1,6 @@
 {
-  "name": "react-native-sqlite-storage",
-  "version": "3.3.9",
+  "name": "rn-sqlite",
+  "version": "4.0.0",
   "description": "SQLite3 bindings for React Native (Android & iOS)",
   "main": "sqlite.js",
   "scripts": {
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andpor/react-native-sqlite-storage.git"
+    "url": "https://github.com/RWOverdijk/rn-sqlite.git"
   },
   "keywords": [
-    "react-native-sqlite-storage",
+    "rn-sqlite",
     "react-native-sqlite",
     "react-component",
     "reactnative",
@@ -26,9 +26,9 @@
   "author": "Andrzej Porebski",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andpor/react-native-sqlite-storage/issues"
+    "url": "https://github.com/RWOverdijk/rn-sqlite/issues"
   },
-  "homepage": "https://github.com/andpor/react-native-sqlite-storage",
+  "homepage": "https://github.com/RWOverdijk/rn-sqlite",
   "peerDependencies": {
     "react-native": ">=0.14.0"
   },
