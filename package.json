@@ -1,6 +1,6 @@
 {
   "name": "rn-sqlite",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "description": "SQLite3 bindings for React Native (Android & iOS)",
   "main": "sqlite.js",
   "types": "./sqlite.d.ts",
