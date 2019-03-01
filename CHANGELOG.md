@@ -1,4 +1,7 @@
 # Version History
+v4.0.3
+ 1. Add typescript typings
+ 
 v4.0.2
  1. Rename podspec
  
